@@ -1,0 +1,11 @@
+platform: iOS
+purpose: Publish
+StructureType: CustomUI
+buildPlatform:
+displayName: "Get App Info from App Store"
+description: "Gets package details from App Store"
+marketPlace: "AppleAppStore"
+processFilename: bash
+processArguments: '%AC_STEP_TEMP%/main.sh'
+files:
+- "main.sh"
