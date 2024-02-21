@@ -1,6 +1,6 @@
 platform: iOS
 purpose: Publish
-StructureType: CustomUI
+structureType: CustomUI
 runOn: "Server"
 buildPlatform:
 displayName: "Get App Info from App Store"
